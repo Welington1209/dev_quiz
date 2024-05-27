@@ -17,8 +17,8 @@
   }
   
   #gameover img {
-    margin: 2rem;
     height: 200px;
+    margin-bottom: 2rem;
   }
   
   #gameover button {

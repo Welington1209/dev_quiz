@@ -50,6 +50,16 @@ const data = [
         options: ["static", "absolute", "fixed", "relative"],
         answer: "fixed",
       },
+      {
+        question: "Qual regra da espaçamento fora de um elemento?",
+        options: ["padding", "border", "margin", "position"],
+        answer: "margin",
+        tip: "margem em inglês",
+      }, {
+        question: "Qual regra define uma borda somente em cima do elemento?",
+        options: ["border-top", "margin", "border-to-top", "border"],
+        answer: "border-top",
+      },
     ],
   },
   {

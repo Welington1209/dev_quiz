@@ -42,7 +42,7 @@ const Question = () => {
         </>
       )}
 
-      {!quizState.answerSelected && (
+      {!quizState.answerSelected && !quizState.help && (
         <button onClick={() => dispatch({ type: "REMOVE_OPTION" })}>
           Excluir uma
         </button>

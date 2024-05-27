@@ -7,7 +7,7 @@
 
 #category h2,
 #category p {
-  margin-bottom: 1rem;
+  margin-bottom: 1.5rem;
 }
 
 #category p {
@@ -15,7 +15,7 @@
 }
 
 #category img {
-  margin: 2rem auto;
+  margin: 1rem auto;
   max-width: 300px;
 }
 
