@@ -55,7 +55,8 @@ const data = [
         options: ["padding", "border", "margin", "position"],
         answer: "margin",
         tip: "margem em inglês",
-      }, {
+      },
+      {
         question: "Qual regra define uma borda somente em cima do elemento?",
         options: ["border-top", "margin", "border-to-top", "border"],
         answer: "border-top",
@@ -95,6 +96,38 @@ const data = [
           "Qual destas propriedades da a quantidade de elementos de um array?",
         options: ["qty", "length", "items", "index"],
         answer: "length",
+      },
+    ],
+  },
+
+  {
+    category: "React",
+    questions: [
+      {
+        question: "Quando usamos React trocamos o .js do arquivo por?",
+        options: [".css", ".jsx", ".php", ".svg"],
+        answer: ".jsx",
+      },
+      {
+        question:
+          "Oque usamos para compartilhar dados de um componente pai para um filho?",
+        options: ["component", "element", "props", "export"],
+        answer: "props",
+      },
+      {
+        question: "Para chamar uma expressão em jsx usamos qual sinal?",
+        options: ["[   ]", "{   }", "<   >", "(   )"],
+        answer: "(   )",
+      },
+      {
+        question: "Como definimos o nome de uma classe?",
+        options: ["name", "href", "className", "class"],
+        answer: "className",
+      },
+      {
+        question: "Qual a sintaxe de um fragment?",
+        options: ["{   }", "<> </>", "( / )", "<   >"],
+        answer: "<> </>",
       },
     ],
   },
